@@ -1,0 +1,19 @@
+    <!-- Contact Form -->
+    <form name="myForm" action="/submit_form" onsubmit="return checkForm()" method="post">
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="phone">Telefone:</label><br>
+        <input type="text" id="phone" name="phone"><br>
+        <label for="service">Serviço:</label><br>
+        <select id="service" name="service">
+            <option value="alongamento">Alongamento em fibra de vidro</option>
+            <option value="banhoGel">Banho de gel</option>
+            <option value="esmaltaGel">Esmaltação em gel</option>
+            <option value="manicure">Manicure convencional</option>
+            <option value="pedicure">Pedicure convencional</option>
+            <option value="manutencao">Manutenção em geral</option>
+        </select><br>
+        <input type="submit" value="Agendar">
+    </form>
