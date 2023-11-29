@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RV Nails Designer</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Tangerine:wght@700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Satisfy&family=Secular+One&family=Tangerine:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/logo01.jpg" type="image/x-icon">
+    <script type="module" src="custom.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <a href="index.html">
+        <button>Voltar</button></a>
+    <h1 class="titulo-nivel-1-do-perfil">RV Nails Designer</h1>
+    <h2 class="paragrafo-lema">
+        <strong>Revivendo a autoestima da sutil beleza feminina, com a atenção e o carinho que você merece.</strong>
+    </h2>
+    <!-- Contact Form -->
+    <form name="myForm" action="/submit_form" onsubmit="return checkForm()" method="post">
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="phone">Telefone:</label><br>
+        <input type="text" id="phone" name="phone"><br>
+        <label for="service">Serviço:</label><br>
+        <select id="service" name="service">
+            <option value="alongamento">Alongamento em fibra de vidro</option>
+            <option value="banhoGel">Banho de gel</option>
+            <option value="esmaltaGel">Esmaltação em gel</option>
+            <option value="manicure">Manicure convencional</option>
+            <option value="pedicure">Pedicure convencional</option>
+            <option value="manutencao">Manutenção em geral</option>
+        </select><br>
+        <input type="submit" value="Agendar">
+    </form>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <h3>Contato</h3>
+                <ul class="social-icons">
+                    <li>
+                        <a href="https://instagram.com/rosilainevieiranails?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="
+                            target="_blank"><i class="fa fa-instagram">Instagram</i></a>
+                    </li>
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=5548988016441" target="_blank"><i
+                                class="fa fa-whatsapp">WhatsApp</i></a>
+                    </li>
+                </ul>
+            </div>
+            
+            <p>&copy; 2021 RV Nail Designer - Todos os direitos reservados.</p>
+        </footer>
+    </body>
+
+</html>
